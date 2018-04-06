@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 20px auto;
+}
+.block__item{
+	width: 30%;
+	max-width: 100%;
+	height: 120px;
+	flex-grow: 1;
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
